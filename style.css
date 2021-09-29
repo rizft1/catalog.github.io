@@ -1,0 +1,75 @@
+.header h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding: 30px 30px 30px 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #000;
+    
+}
+.header-menu{
+    list-style: none;
+    margin: 0;
+    padding :0;
+    text-align: center;
+    font-size:x-large    
+}
+
+.header-menu li{
+    display: inline;
+}
+.header-menu a{
+    display: inline-block;
+    color: rgb(247, 247, 247);
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.header-menu a:hover{
+    color: gray;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin: 3% 3% 3% 3%;
+    padding: 5% 10% 5% 10%;
+    border:gray;
+    border-radius: 5%;
+}
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+footer {
+    font-size: 90%;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: black;
+    color: rgb(251, 251, 251);
+}
